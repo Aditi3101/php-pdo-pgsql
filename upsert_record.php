@@ -1,3 +1,5 @@
+<!-- upsert means update or insert. This script will handle both insert and update operations. The script will be called when the form is submitted. The form data will be serialized and sent to this script. The script will then check if the action is insert or update. If the action is insert, the script will insert a new record. If the action is update, the script will update an existing record. After the insert or update operation is completed, the script will fetch all records and return the updated table to the client side. The client side will then update the table with the updated data. The form will be cleared after the operation is completed. -->
+
 <?php
 try {
   include("connect.php");
